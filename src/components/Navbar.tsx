@@ -45,7 +45,7 @@ export default function Navbar() {
         </div>
 
         <div
-          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isMenuOpen ? "max-h-96 opacity-100 py-4 border-t border-gray-200" : "max-h-0 opacity-0 py-0 border-t-0"
+          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out bg-offwhite ${isMenuOpen ? "max-h-96 opacity-100 py-4 border-t border-gray-200" : "max-h-0 opacity-0 py-0 border-t-0"
             }`}
         >
           <div className="flex flex-col space-y-4">
