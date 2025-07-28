@@ -219,7 +219,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Bar ZéPelin',
       service: 'social-media',
         videoUrl: 'https://www.youtube.com/shorts/rXcG0R_JjT0',
-          thumbnail: '/images/Social Midia/4 Drink.jpg',
+          thumbnail: '/images/Social Midia/4 Drink.JPG',
             isShort: true
 },
 {
@@ -251,7 +251,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Dom Carmelito',
       service: 'social-media',
         videoUrl: 'https://www.youtube.com/shorts/HwHK7byfiQY',
-          thumbnail: '/images/Social Midia/8 prato Dom Carmelito.jpg',
+          thumbnail: '/images/Social Midia/8 Prato Dom Carmelito.jpg',
             isShort: true
 },
 {
