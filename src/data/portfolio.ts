@@ -10,10 +10,18 @@ interface PortfolioItem {
 
 export const portfolioItems: PortfolioItem[] = [
   {
-    id: 'corp1',
+    id: 'corp0',
     title: 'Eletron Energia',
     service: 'corporativo',
     videoUrl: 'https://youtu.be/v1svJDEKL_Q',
+    thumbnail: '/images/Corporativos/1 Hotel San Juan.jpg',
+    isShort: false
+  },
+  {
+    id: 'corp1',
+    title: 'Eletron Energia',
+    service: 'corporativo',
+    videoUrl: 'https://drive.google.com/file/d/1RG9X4PXhTOFfq6JFyCebL2ktqUjNIrit/preview',
     thumbnail: '/images/Corporativos/1 Hotel San Juan.jpg',
     isShort: false
   },

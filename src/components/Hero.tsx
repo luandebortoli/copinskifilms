@@ -2,31 +2,31 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 
 export default function Hero() {
   return (
     <motion.section
       id="home"
-      className="relative h-screen flex items-center justify-start overflow-hidden"
+      className="relative min-h-screen flex items-center justify-start overflow-hidden"
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
     >
       <div className="absolute inset-0 w-full h-full -z-10">
-        <Image
-          src="https://images.unsplash.com/photo-1531645881745-b2efaf89e98f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="Eduardo Copinski"
-          fill
-          className="object-cover"
-          sizes="100vw"
-          style={{ transform: "scaleX(1)" }}
+        <video
+          src="/GIF Site.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="object-cover w-full h-full absolute inset-0 scale-[1.5] sm:scale-100"
         />
       </div>
 
+      {/* Desktop Version */}
       <motion.div
-        className="relative z-10 text-left text-white px-4 max-w-2xl ml-8"
+        className="hidden sm:block relative z-10 text-left text-white px-4 max-w-2xl ml-8"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
@@ -59,6 +59,27 @@ export default function Hero() {
             Chamar no WhatsApp
           </a>
         </div>
+      </motion.div>
+
+      {/* Mobile Version */}
+      <motion.div
+        className="sm:hidden absolute bottom-0 left-0 w-full z-10 flex flex-col items-center pb-30 px-20"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+      >
+        <h1 className="text-4xl font-bold mb-4 tracking-wider text-offwhite text-center drop-shadow-lg">
+          COPINSKI FILMS
+        </h1>
+        <a
+          href="https://wa.me/5541999094463"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-bordeux/90 text-offwhite border-2 border-offwhite px-6 py-3 rounded-4xl font-semibold transition-colors duration-200 hover:bg-ashgray/90 hover:text-bordeux hover:border-bordeux flex items-center justify-center"
+        >
+          Chamar no WhatsApp
+        </a>
       </motion.div>
     </motion.section>
   );
