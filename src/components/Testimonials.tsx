@@ -1,30 +1,8 @@
 'use client';
 
 import React from "react";
-import { Star } from "lucide-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-
-const testimonials = [
-  {
-    name: "Marina Silva",
-    role: "Noiva",
-    text: "Eduardo capturou cada momento especial do nosso casamento. O resultado foi incrível!",
-    rating: 5
-  },
-  {
-    name: "João Goularte",
-    role: "Empresário",
-    text: "O vídeo comercial aumentou muito nossa visibilidade. Trabalho profissional e criativo.",
-    rating: 5
-  },
-  {
-    name: "Ana Clara",
-    role: "Corretora",
-    text: "Os tours virtuais ajudaram muito nas vendas. Qualidade excepcional!",
-    rating: 5
-  }
-];
 
 // Array de logos (1 a 26)
 const logos = Array.from({ length: 26 }, (_, i) => `/images/logo${i + 1}.png`);
