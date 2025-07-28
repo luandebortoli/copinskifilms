@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <motion.section
       id="home"
-      className="relative min-h-screen flex items-center justify-start overflow-hidden"
+      className="relative h-[30.5dvh] sm:h-[100dvh] flex items-center justify-start overflow-hidden"
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
@@ -20,7 +20,7 @@ export default function Hero() {
           loop
           muted
           playsInline
-          className="object-cover w-full h-full absolute inset-0 scale-[1.5] sm:scale-100"
+          className="object-contain sm:object-cover w-full h-full absolute inset-0"
         />
       </div>
 
@@ -63,23 +63,15 @@ export default function Hero() {
 
       {/* Mobile Version */}
       <motion.div
-        className="sm:hidden absolute bottom-0 left-0 w-full z-10 flex flex-col items-center pb-30 px-20"
+        className="sm:hidden absolute bottom-0 right-25 w-full z-10 flex flex-col items-center pb-12 px-6"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
       >
-        <h1 className="text-4xl font-bold mb-4 tracking-wider text-offwhite text-center drop-shadow-lg">
+        <h1 className="text-xl font-bold mb-4 tracking-wider text-offwhite text-center drop-shadow-lg">
           COPINSKI FILMS
         </h1>
-        <a
-          href="https://wa.me/5541999094463"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-bordeux/90 text-offwhite border-2 border-offwhite px-6 py-3 rounded-4xl font-semibold transition-colors duration-200 hover:bg-ashgray/90 hover:text-bordeux hover:border-bordeux flex items-center justify-center"
-        >
-          Chamar no WhatsApp
-        </a>
       </motion.div>
     </motion.section>
   );
