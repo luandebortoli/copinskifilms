@@ -30,7 +30,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Renner Coatings',
     service: 'corporativo',
     videoUrl: 'https://www.youtube.com/watch?v=0YuzvYhOQIs&list=TLGGGQMGUInZQLYxNDA3MjAyNQ ',
-    thumbnail: '/images/Corporativos/3 Renner Coatings.jpg',
+    thumbnail: '/images/Corporativos/3 renner coatings.jpg',
     isShort: false
   },
   {
@@ -46,7 +46,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Maha 3D',
     service: 'corporativo',
     videoUrl: 'https://www.youtube.com/watch?v=3pTDRD-hpi4&list=TLGGAX2PqJu5ww8xNDA3MjAyNQ',
-    thumbnail: '/images/Corporativos/5. Maha3D.jpg',
+    thumbnail: '/images/Corporativos/5 Maha3d.jpg',
     isShort: false
   },
   {
@@ -54,7 +54,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Gasoline Speed Shop',
     service: 'corporativo',
     videoUrl: 'https://drive.google.com/file/d/1UaRMOsLZC-dABx3SE_UXSS4Wdbua7XdF/preview',
-    thumbnail: '/images/Corporativos/6 reels gasoline.jpg',
+    thumbnail: '/images/Corporativos/6 Reels Gasoline.jpg',
     isShort: true
   },
   //casamento
@@ -219,7 +219,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Bar ZéPelin',
       service: 'social-media',
         videoUrl: 'https://www.youtube.com/shorts/rXcG0R_JjT0',
-          thumbnail: '/images/Social Midia/4 drink.jpg',
+          thumbnail: '/images/Social Midia/4 Drink.jpg',
             isShort: true
 },
 {
@@ -235,7 +235,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Feijoada Daôci',
       service: 'social-media',
         videoUrl: 'https://www.youtube.com/shorts/Z7ysVZfCqLI',
-          thumbnail: '/images/Social Midia/6 feijoada daoci.jpg',
+          thumbnail: '/images/Social Midia/6 feijoada Daoci.jpg',
             isShort: true
 },
 {
@@ -251,7 +251,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Dom Carmelito',
       service: 'social-media',
         videoUrl: 'https://www.youtube.com/shorts/HwHK7byfiQY',
-          thumbnail: '/images/Social Midia/8 prato dom carmelito.jpg',
+          thumbnail: '/images/Social Midia/8 prato Dom Carmelito.jpg',
             isShort: true
 },
 {
@@ -259,7 +259,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Flora Cozinha Familiar',
       service: 'social-media',
         videoUrl: 'https://www.youtube.com/shorts/iZIrlox9V2Y',
-          thumbnail: '/images/Social Midia/9 peixe flora.jpg',
+          thumbnail: '/images/Social Midia/9 Peixe Flora.jpg',
             isShort: true
 },
 {
