@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <motion.section
       id="home"
-      className="relative h-[65dvh] sm:h-[100dvh] flex items-center justify-start overflow-hidden"
+      className="relative h-[45dvh] sm:h-[100dvh] flex items-center justify-start overflow-hidden"
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
@@ -69,7 +69,7 @@ export default function Hero() {
         transition={{ duration: 1 }}
         viewport={{ once: true }}
       >
-        <h1 className="text-xl font-bold mb-4 tracking-wider text-offwhite text-center drop-shadow-lg">
+        <h1 className="text-xl font-bold mb-4 tracking-wider text-primary text-center drop-shadow-lg">
           COPINSKI FILMS
         </h1>
       </motion.div>
