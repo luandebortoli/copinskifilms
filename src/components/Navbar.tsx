@@ -39,7 +39,10 @@ export default function Navbar() {
             ))}
           </div>
 
-          <button className="md:hidden p-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          <button
+            className="md:hidden p-2 text-primary dark:text-primary"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
