@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <motion.section
       id="home"
-      className="relative h-[50dvh] sm:h-[100dvh] flex items-center justify-start overflow-hidden"
+      className="relative h-[65dvh] sm:h-[100dvh] flex items-center justify-start overflow-hidden"
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
