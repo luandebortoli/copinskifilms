@@ -24,9 +24,9 @@ const services = [
   {
     icon: <PartyPopper className="w-8 h-8" />,
     title: "Festas",
-    desc: "Cobertura completa de aniversários e celebrações",
+    desc: "Cobertura completa de shows, baladas e festas em geral",
     slug: "festas",
-    image: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+    image: "/images/Festas/servicefestas.jpg"
   },
   {
     icon: <Users className="w-8 h-8" />,

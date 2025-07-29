@@ -22,7 +22,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Eletron Energia',
     service: 'corporativo',
     videoUrl: 'https://drive.google.com/file/d/1RG9X4PXhTOFfq6JFyCebL2ktqUjNIrit/preview',
-    thumbnail: '/images/Corporativos/1 Hotel San Juan.jpg',
+    thumbnail: '/images/Corporativos/eletron.jpg',
     isShort: false
   },
   {
@@ -66,6 +66,14 @@ export const portfolioItems: PortfolioItem[] = [
     isShort: true
   },
   //casamento
+  {
+    id: 'casamento0',
+    title: 'Gabi e Alexandre',
+    service: 'casamentos',
+    videoUrl: 'https://www.youtube.com/watch?v=Uf4B9ITyUho&feature=youtu.be',
+    thumbnail: '/images/casamento/gabialexandre.jpg',
+    isShort: false
+  },
   {
     id: 'casamento1',
     title: 'Camila & Jheannyto',
